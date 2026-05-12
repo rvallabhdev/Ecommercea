@@ -1,0 +1,24 @@
+Dell@DESKTOP-OBO04BB MINGW64 /g/Desktop Files/Fiverr/Python Tasks/Django Project/Ecommerce
+$ where python
+G:\Desktop Files\Fiverr\Python Tasks\Django Project\Ecommerce\env\Scripts\python.exe
+C:\Users\Dell\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\msys64\mingw64\bin\python.exe
+(env)
+Dell@DESKTOP-OBO04BB MINGW64 /g/Desktop Files/Fiverr/Python Tasks/Django Project/Ecommerce
+$ where pip
+G:\Desktop Files\Fiverr\Python Tasks\Django Project\Ecommerce\env\Scripts\pip.exe
+C:\Users\Dell\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts\pip.exe
+C:\Users\Dell\AppData\Local\Programs\Python\Python313\Scripts\pip.exe
+C:\Users\Dell\AppData\Local\Microsoft\WindowsApps\pip.exe
+(env)
+Dell@DESKTOP-OBO04BB MINGW64 /g/Desktop Files/Fiverr/Python Tasks/Django Project/Ecommerce
+$ where git
+C:\Program Files\Git\mingw64\bin\git.exe
+C:\Program Files\Git\cmd\git.exe
+(env)
+Dell@DESKTOP-OBO04BB MINGW64 /g/Desktop Files/Fiverr/Python Tasks/Django Project/Ecommerce
+$ where node
+INFO: Could not find files for the given pattern(s).
+(env)
+Dell@DESKTOP-OBO04BB MINGW64 /g/Desktop Files/Fiverr/Python Tasks/Django Project/Ecommerce
+$
