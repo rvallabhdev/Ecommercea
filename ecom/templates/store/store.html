@@ -125,18 +125,20 @@
         {% for product in products %}
         <div class="col-md-4">
             <figure class="card card-product-grid">
-                <div class="img-wrap"> 
-                    <img src="{{ product.image.url }}" alt="{{ product.product_name }}">
-                </div> <!-- img-wrap.// -->
+                <a href="{{ product.get_url }}" class="img-wrap">
+                    <img src="{{ product.images.url }}"
+                        alt="{{ product.product_name }}"
+                        class="img-fluid">
+                </a> <!-- img-wrap.// -->
                 <figcaption class="info-wrap">
                     <div class="fix-height">
-                        <a href="./product-detail.html" class="title">{{ product.product_name }}</a>
+                        <a href="{{ product.get_url }}" class="title">{{ product.product_name }}</a>
                         <div class="price-wrap mt-2">
                             <span class="price">${{ product.price }}</span>
                             <del class="price-old">${{ product.old_price }}</del>
                         </div> <!-- price-wrap.// -->
                     </div>
-                    <a href="#" class="btn btn-block btn-success">Add to cart </a>
+                    <a href="{{ product.get_url }}" class="btn btn-block btn-success">Add to cart </a>
                 </figcaption>
             </figure>
         </div> <!-- col.// -->
