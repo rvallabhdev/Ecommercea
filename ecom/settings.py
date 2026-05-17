@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'ecom',
     'category.apps.CategoryConfig',
     'store.apps.StoreConfig',
+    'carts.apps.CartsConfig',
 ]
 
 MIDDLEWARE = [
